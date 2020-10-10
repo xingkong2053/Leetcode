@@ -56,8 +56,6 @@ public class _239MaxSlidingWindow02 {
         int[] result=new int[len-k+1];
         //双端队列 存放下标
         LinkedList<Integer> deque=new LinkedList<>();
-        int l=0,r=0;
-
 
         for (int i = 0; i < len; i++) {
             //从队尾依次弹出比num[i]小的数
